@@ -1,0 +1,12 @@
+name: test-TDS-evaluation
+
+on: push
+
+jobs:
+  test:
+    name: Job added for TDS evaluation
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f2005138@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+
